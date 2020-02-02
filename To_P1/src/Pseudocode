@@ -1,0 +1,65 @@
+Create scanner for user input set to sc
+
+Create condition for the end of While loop
+	Set boolean loop equal to true
+	
+	Create while loop with the condition of loop
+		Print out menu options 1 Encrypt, 2 Decrypt, and 3 Quit for switch case options.
+		Initialized ch and equate it to user integer input
+		
+		Initialize switch case 1
+			case 1 is used for Encryption
+			initialize array digits
+			print digits for encryption 
+			
+			Until i is equal to four user inputs integers
+			
+			call array list from Encrypter class
+				In encrypt method create 
+				FOR loop until i equals 4, add 7 to digits[i]
+				and mod digits[i] by 10
+				END FOR
+				
+				set int odds equal to digits[0]
+				set digits[0] equal to digits[2]
+				set digits[2] equal to odds
+
+				set int evens equal to digits[1]
+				set digits[1] equal to digits[3]			
+				set digits[3] equal to evens				
+				return digits
+				
+			print encrypted results
+			
+		Initialize switch case 2
+			case 2 is used for decryption
+			initialize array digits
+			print digits for encryption 
+			
+			Until i is equal to four user inputs integers
+			
+			call array list from decrypter class
+				set int odds equal to ddigits[0]
+				set ddigits[0] equal to ddigits[2]
+				set ddigits[2] equal to odds
+
+				set int evens equal to ddigits[1]
+				set ddigits[1] equal to ddigits[3]			
+				set ddigits[3] equal to evens
+			
+				Create for loop until i equals 4
+				if ddigits is less than or equal to 6, add 10 to ddigits[i]
+				END if
+				Then subtract digits[i] by 7
+				return ddigits
+				
+				print decrypted results
+				
+		Initialized swithc case 3
+			set loop equal to false
+			
+		END SWITCH
+	END WHILE
+	close sc
+	exits system
+		
